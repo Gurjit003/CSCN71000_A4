@@ -60,7 +60,7 @@ int main(void)
 			++guessTrailCount; 
 		};
 
-		if (0 == guessTrailCount) 
+		if (guessTrailCount == 0)
 		{  
 			if (guess >= MINNUMBER && guess <= MAXNUMBER)
 			{ 
