@@ -3,19 +3,14 @@
 
 #define _CRT_SECURE_NO_WARNINGS 
 
-#include <stdio.h>
-#include <stdlib.h>
+#include <stdio.h> 
+#include <stdlib.h> 
+#include "Source.h" 
 
 
 #define MINNUMBER 1 
 #define MAXNUMBER 1000 
 #define MAXGUESSES 6  
-
-
-void displayIncorrectGuesses(int guessCount); 
-void displayPreviouslyGuessedNumbers(FILE* fp); 
-void correctNumberMessage(FILE* fp2, int mysteryNumber); 
-void gameOverMessage(FILE* fp2, int mysteryNumber); 
 
 
 int main(void) 
